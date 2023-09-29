@@ -2,6 +2,7 @@ const inputBox = document.querySelector("#input-box");
 const listContainer = document.querySelector("#list-container");
 
 function addTask() {
+  debugger;
   let li = document.createElement("li");
   li.className = "list-group-item";
   li.innerHTML = inputBox.value;
@@ -18,6 +19,7 @@ function addTask() {
 listContainer.addEventListener(
   "click",
   function (e) {
+    debugger;
     if (e.target.tagName === "SPAN") {
       e.target.parentElement.remove();
     }
