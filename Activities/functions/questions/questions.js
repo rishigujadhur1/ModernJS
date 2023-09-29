@@ -14,3 +14,15 @@
 //Q3
 const multiply = (a, b) => a * b;
 console.log(multiply(4, 6));
+
+//Q4
+function greet(name, callback) {
+  console.log(`Hello, ${name}!`);
+  callback();
+}
+
+function sayGoodbye() {
+  console.log("Goodbye!");
+}
+
+greet("Alice", sayGoodbye);

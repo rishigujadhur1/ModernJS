@@ -12,3 +12,7 @@ const substract = function (a, b) {
 
 //Q3
 //24
+
+//Q4
+// Hello, Alice!
+// Goodbye!
