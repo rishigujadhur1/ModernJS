@@ -13,3 +13,7 @@ console.log("Hello" + " " + "World");
 
 //Q5
 console.log(10 / 0);
+
+//Q6
+const name = "Bob";
+const greeting = `Hello, ${name}!`;

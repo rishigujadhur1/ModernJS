@@ -12,3 +12,6 @@
 
 //Q5
 // Infinity
+
+//Q6
+//Hello Bob
