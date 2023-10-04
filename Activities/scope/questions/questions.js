@@ -60,3 +60,13 @@ function blockScopeExample() {
 }
 
 blockScopeExample();
+
+//Q7 Global scope
+function blockScopeExample2() {
+  if (true) {
+    var blockVar = "I'm inside a block";
+  }
+  console.log(blockVar); // What will this print?
+}
+
+blockScopeExample2();
