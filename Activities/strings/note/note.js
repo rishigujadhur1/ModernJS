@@ -23,6 +23,7 @@ const str = "JavaScript is amazing!";
 
 // Example methods:
 const upperCase = str.toUpperCase(); // Convert to uppercase
+
 const lowerCase = str.toLowerCase(); // Convert to lowercase
 const subStr = str.substring(0, 10); // Get a substring
 const indexOfA = str.indexOf("a"); // Find the index of a character
