@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+    <div class="container py-3">
+      <h1>Web Development Quiz</h1>
+
+      <div class="quiz-question">
+        <h2>Question 1: What does HTML stand for?</h2>
+        <ul>
+          <li>
+            <input type="radio" name="q1" id="q1a1" value="A"> A. Hyper Text Markup Language
+          </li>
+          <li>
+            <input type="radio" name="q1" id="q1a2" value="B"> B. High-level Text Markup Language
+          </li>
+        </ul>
+      </div>
+
+      <div class="quiz-question">
+        <h2>Question 2: Which library is used for responsive web design in the provided HTML code?</h2>
+        <ul>
+          <li>
+            <input type="radio" name="q2" id="q2a1" value="A"> A. Bootstrap
+          </li>
+          <li>
+            <input type="radio" name="q2" id="q2a2" value="B"> B. jQuery
+          </li>
+        </ul>
+      </div>
+	  
+	  <div class="quiz-question">
+        <h2>Question 3: In Bootstrap, what class is used to create a responsive navigation bar?</h2>
+        <ul>
+          <li>
+            <input type="radio" name="q8" id="q3a1" value="A"> A. .navbar
+          </li>
+          <li>
+            <input type="radio" name="q8" id="q3a2" value="B"> B. .menu
+          </li>
+        </ul>
+      </div>
+	  
+
+      <div class="quiz-question">
+        <h2>Question 4: Which HTML tag is used to create an unordered list?</h2>
+        <ul>
+          <li>
+            <input type="radio" name="q4" id="q4a1" value="A"> A. &lt;ul&gt;
+          </li>
+          <li>
+            <input type="radio" name="q4" id="q4a2" value="B"> B. &lt;ol&gt;
+          </li>
+        </ul>
+      </div>
+
+      <div class="quiz-question">
+        <h2>Question 5: Which HTML tag is used to define the body of an HTML document?</h2>
+        <ul>
+          <li>
+            <input type="radio" name="q5" id="q5a1" value="A"> A. &lt;head&gt;
+          </li>
+          <li>
+            <input type="radio" name="q5" id="q5a2" value="B"> B. &lt;body&gt;
+          </li>
+        </ul>
+      </div>
+
+      <div class="quiz-question">
+        <h2>Question 6: What is the purpose of the &lt;div&gt; tag in HTML?</h2>
+        <ul>
+          <li>
+            <input type="radio" name="q6" id="q6a1" value="A"> A. Define a hyperlink
+          </li>
+          <li>
+            <input type="radio" name="q6" id="q6a2" value="B"> B. Define a division or a section in an HTML document
+          </li>
+        </ul>
+      </div>
+
+      <div class="quiz-question">
+        <h2>Question 7: Which HTML tag is used for creating a hyperlink?</h2>
+        <ul>
+          <li>
+            <input type="radio" name="q7" id="q7a1" value="A"> A. &lt;a&gt;
+          </li>
+          <li>
+            <input type="radio" name="q7" id="q7a2" value="B"> B. &lt;p&gt;
+          </li>
+        </ul>
+      </div>
+
+      <div class="quiz-question">
+        <h2>Question 8: What is the purpose of the "class" attribute in HTML tags?</h2>
+        <ul>
+          <li>
+            <input type="radio" name="q8" id="q8a1" value="A"> A. Defines the tag's color
+          </li>
+          <li>
+            <input type="radio" name="q8" id="q8a2" value="B"> B. Specifies one or more class names for an element
+          </li>
+        </ul>
+      </div>
+
+      <div class="quiz-result">
+        <button class="btn btn-lg btn-primary" onclick="calculateScore()">Submit</button>
+        <p id="quiz-score">Your score: </p>
+      </div>
+    </div>
+
+    <script>
+      function calculateScore() {
+        let score = 0;
+
+        // Question 1: Check if the correct answer is selected
+        if (document.getElementById("q1a1").checked) {
+          score++;
+        }
+
+        // Question 2: Check if the correct answer is selected
+        if (document.getElementById("q2a1").checked) {
+          score++;
+        }
+
+        // Question 3: Check if the correct answer is selected
+        if (document.getElementById("q3a2").checked) {
+          score++;
+        }
+
+        // Question 4: Check if the correct answer is selected
+        if (document.getElementById("q4a1").checked) {
+          score++;
+        }
+
+        // Question 5: Check if the correct answer is selected
+        if (document.getElementById("q5a2").checked) {
+          score++;
+        }
+
+        // Question 6: Check if the correct answer is selected
+        if (document.getElementById("q6a2").checked) {
+          score++;
+        }
+
+        // Question 7: Check if the correct answer is selected
+        if (document.getElementById("q7a1").checked) {
+          score++;
+        }
+
+        // Question 8: Check if the correct answer is selected
+        if (document.getElementById("q8a2").checked) {
+          score++;
+        }
+
+        // Display the score
+        document.getElementById("quiz-score").textContent = "Your score: " + score + " out of 8";
+      }
+    </script>
+  </body>
+</html>
