@@ -93,17 +93,7 @@
         </ul>
       </div>
 
-      <div class="quiz-question">
-        <h2>Question 8: What is the purpose of the "class" attribute in HTML tags?</h2>
-        <ul>
-          <li>
-            <input type="radio" name="q8" id="q8a1" value="A"> A. Defines the tag's color
-          </li>
-          <li>
-            <input type="radio" name="q8" id="q8a2" value="B"> B. Specifies one or more class names for an element
-          </li>
-        </ul>
-      </div>
+    
 
       <div class="quiz-result">
         <button class="btn btn-lg btn-primary" onclick="calculateScore()">Submit</button>
@@ -126,7 +116,7 @@
         }
 
         // Question 3: Check if the correct answer is selected
-        if (document.getElementById("q3a2").checked) {
+        if (document.getElementById("q3a1").checked) {
           score++;
         }
 
@@ -149,14 +139,10 @@
         if (document.getElementById("q7a1").checked) {
           score++;
         }
-
-        // Question 8: Check if the correct answer is selected
-        if (document.getElementById("q8a2").checked) {
-          score++;
-        }
+ 
 
         // Display the score
-        document.getElementById("quiz-score").textContent = "Your score: " + score + " out of 8";
+        document.getElementById("quiz-score").textContent = "Your score: " + score + " out of 7";
       }
     </script>
   </body>
