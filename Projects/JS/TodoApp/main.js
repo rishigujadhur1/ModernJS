@@ -2,7 +2,6 @@ const inputBox = document.querySelector("#input-box");
 const listContainer = document.querySelector("#list-container");
 
 function addTask() {
-  debugger;
   let li = document.createElement("li");
   li.className = "list-group-item";
   li.innerHTML = inputBox.value;
