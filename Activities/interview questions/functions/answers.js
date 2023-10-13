@@ -20,3 +20,26 @@ undefined;
 
 // Question 8:
 ("32");
+
+// Question 9: foo was called
+
+// Question 10: undefined
+
+// Question 11: 5
+
+// Question 12:
+// c
+// b
+// a
+
+// Question 13: Inner function
+
+// Question 14: Anonymous function
+
+// Question 15: 5
+
+// Question 16: bar
+
+// Question 17: 10
+
+// Question 18: 10

@@ -51,3 +51,78 @@ console.log("1" - -"1");
 
 // Question 8:
 console.log(3 + "2");
+
+// Question 9:
+// What is the output of the following code?
+foo();
+function foo() {
+  console.log("foo was called");
+}
+var foo = function () {
+  console.log("variable foo was called");
+};
+
+// Question 10:
+console.log(x);
+var x = 10;
+
+// Question 11:
+(function () {
+  var a = (b = 5);
+})();
+console.log(b);
+
+// Question 12:
+function a() {
+  console.log("a");
+}
+function b() {
+  console.log("b");
+  a();
+}
+function c() {
+  console.log("c");
+  b();
+}
+c();
+
+// Question 13:
+function outer() {
+  inner();
+  function inner() {
+    console.log("Inner function");
+  }
+}
+outer();
+
+// Question 14:
+(function () {
+  console.log("Anonymous function");
+})();
+
+// Question 15:
+var x = 5;
+(function () {
+  console.log(x);
+})();
+
+// Question 16:
+function foo() {
+  console.log("foo");
+}
+var foo;
+foo = function () {
+  console.log("bar");
+};
+foo();
+
+// Question 17:
+(function (x) {
+  console.log(x);
+})(10);
+
+// Question 18:
+var x = 10;
+(function () {
+  console.log(x);
+})();
