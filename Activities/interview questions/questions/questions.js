@@ -1,22 +1,10 @@
-// What is JavaScript, and how does it differ from Java?
+// 3 Explain the difference between let, const, and var for variable declaration.
 
-// How do you declare a variable in JavaScript?
+// 7 What is the difference between "null" and "undefined" in JavaScript?
 
-// Explain the difference between let, const, and var for variable declaration.
+// 8 How does the "this" keyword work in JavaScript?
 
-// What is the significance of "hoisting" in JavaScript?
-
-// How do you check the data type of a variable in JavaScript?
-
-// Explain the concept of "closures" in JavaScript.
-
-// What is the difference between "null" and "undefined" in JavaScript?
-
-// How does the "this" keyword work in JavaScript?
-
-// What is an IIFE (Immediately Invoked Function Expression) in JavaScript, and why is it used?
-
-// Explain the concept of "callback functions" and provide an example of their use.
+// 10 Explain the concept of "callback functions" and provide an example of their use.
 
 // What is an "arrow function" in JavaScript, and how does it differ from regular functions?
 
