@@ -6,22 +6,16 @@
 
 // 10 Explain the concept of "callback functions" and provide an example of their use.
 
-// What is an "arrow function" in JavaScript, and how does it differ from regular functions?
+// Question 10: What is an "arrow function" in JavaScript, and how does it differ from regular functions?
 
-// What are "promises" in JavaScript, and how do they work?
+// Question 11: What are "promises" in JavaScript, and how do they work?
 
-// What is "asynchronous programming," and how is it achieved in JavaScript?
+// Question 12: What is "asynchronous programming," and how is it achieved in JavaScript?
 
-// What is the purpose of the "localStorage" and "sessionStorage" objects in the browser?
+// Question 14: Explain the difference between "null" and "undefined."
 
-// Explain the difference between "null" and "undefined."
+// Question 15: What is the "DOM" in the context of web development and JavaScript?
 
-// What is the "DOM" in the context of web development and JavaScript?
+// Question 16: How do you handle errors in JavaScript, and what are the types of errors you might encounter?
 
-// How do you handle errors in JavaScript, and what are the types of errors you might encounter?
-
-// Explain the use of "JSON" in JavaScript and how you can parse and stringify JSON data.
-
-// What is a "closure" in JavaScript, and why might you use one?
-
-// What is the "event delegation" pattern in JavaScript, and why is it useful in web development?
+// Question 17: Explain the use of "JSON" in JavaScript and how you can parse and stringify JSON data.
